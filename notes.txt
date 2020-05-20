@@ -35,6 +35,8 @@
 			DB_PASSWORD=root
 
 	07 - Estrutura e Organização do Laravel 6
+		Criar pasta: app/Models
+		Mover o model user para a pasta e modificar o nomespace do arquivo user.php e dos locais que usam a Model.
 			
 	08 - Versionando Laravel com GIT e Armazenar no GitHub
 
