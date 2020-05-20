@@ -39,9 +39,11 @@
 		Mover o model user para a pasta e modificar o nomespace do arquivo user.php e dos locais que usam a Model.
 			
 	08 - Versionando Laravel com GIT e Armazenar no GitHub
+		.gitignori
 
 02 - Rotas
 	09 - Introdução a Rotas no Laravel 6.x
+	
 	10 - Rotas any e match no Laravel
 	11 - Rotas com parâmetros no Laravel
 	12 - Rotas no Laravel - redirect e view
