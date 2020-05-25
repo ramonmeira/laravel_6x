@@ -50,6 +50,8 @@
 	14 - Grupo de Rotas no Laravel
 		 php artisan make:controller Admin\TesteController
 	15 - Comandos do Artisan para Rotas no Laravel
+		php artisan route:list
+		php artisan route:cache
 03 - Controllers
 	16 - Introdução aos Controllers no Laravel 6.x
 	17 - Controllers com Parâmetros de Rotas no Laravel 6.x
