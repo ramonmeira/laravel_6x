@@ -1,5 +1,13 @@
 <?php
 
+Route::match(['get','post'],'/match', function() {
+    return 'match';
+});
+
+Route::any('/any', function() {
+    return 'any';
+});
+
 Route::post('/register', function() {
     return '';
 });
