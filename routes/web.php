@@ -1,5 +1,17 @@
 <?php
 
+Route::get('produtos/{idPordutos?}/details', function($idPordutos = '') {
+    return "Produto(s): {$idPordutos}";
+});
+
+Route::get('categoria/{flag}/posts', function($flag) {
+    return "Posts da categoria: {$flag}";
+});
+
+Route::get('categoria/{flag}', function($flag) {
+    return "Produtos da categoria: {$flag}";
+});
+
 Route::match(['get','post'],'/match', function() {
     return 'match';
 });
