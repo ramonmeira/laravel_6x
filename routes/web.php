@@ -1,5 +1,40 @@
 <?php
 
+/*Route::middleware([])->group(function(){
+	Route::prefix('admin')->group(function(){
+		//Route::get('/admin/', ...
+		Route::namespace('Admin')->group(function(){
+			//Route::get('/', 'Admin\TesteController@teste');
+			Route::name('admin.')->group(function(){
+				Route::get('/dashboard', 'TesteController@dashboard')->name('dashboard');
+				Route::get('/financeiro','TesteController@financeiro')->name('financeiro');
+				Route::get('/produtos', 'TesteController@produtos')->name('produtos');
+				Route::get('/', function(){
+					return redirect()->route('admin.dashboard');
+				});
+			});
+		});
+	});
+});*/
+
+Route::group([
+	'middleware' => [],
+	'prefix' => 'admin',
+	'namespace' => 'Admin',
+	'name' => 'admin.'
+], function() {
+    Route::get('/dashboard', 'TesteController@dashboard')->name('dashboard');
+	Route::get('/financeiro','TesteController@financeiro')->name('financeiro');
+	Route::get('/produtos', 'TesteController@produtos')->name('produtos');
+	Route::get('/', function(){
+		return redirect()->route('admin.dashboard');
+	});
+});
+
+Route::get('login', function() {
+    return 'login';
+})->name('login');
+
 Route::get('/redirect3', function() {
     return redirect()->route('url.name');
 });

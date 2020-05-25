@@ -48,6 +48,7 @@
 	12 - Rotas no Laravel - redirect e view
 	13 - Rotas nomeadas no Laravel
 	14 - Grupo de Rotas no Laravel
+		 php artisan make:controller Admin\TesteController
 	15 - Comandos do Artisan para Rotas no Laravel
 03 - Controllers
 	16 - Introdução aos Controllers no Laravel 6.x
