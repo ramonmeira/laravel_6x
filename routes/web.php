@@ -1,5 +1,13 @@
 <?php
 
+Route::get('/redirect3', function() {
+    return redirect()->route('url.name');
+});
+
+Route::get('/nome-url', function() {
+    return 'Hey hey hey';
+})->name('url.name');
+
 Route::view('/view','site.contact',['subtitle'=>'Antigos']);
 
 // Route::get('/view', function () {
