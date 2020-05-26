@@ -60,6 +60,7 @@
 	19 - Controllers Resources no Laravel 6.x
 		php artisan make:controller ProductController --resource
 	20 - Injeção de Dependências no Laravel 6.x
+		http://laravel6x.test/products/2?prm1=teste2
 	21 - Middlewares em Controllers no Laravel 6.x
 04 - Views
 	22 - Introdução a Views no Laravel 6.x
