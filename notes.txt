@@ -54,6 +54,7 @@
 		php artisan route:cache
 03 - Controllers
 	16 - Introdução aos Controllers no Laravel 6.x
+		 php artisan make:controller ProductController
 	17 - Controllers com Parâmetros de Rotas no Laravel 6.x
 	18 - Controllers de CRUD no Laravel 6.x
 	19 - Controllers Resources no Laravel 6.x

@@ -1,5 +1,7 @@
 <?php
 
+Route::get('/products', 'ProductController@index')->name('products.index');
+
 /*Route::middleware([])->group(function(){
 	Route::prefix('admin')->group(function(){
 		//Route::get('/admin/', ...
