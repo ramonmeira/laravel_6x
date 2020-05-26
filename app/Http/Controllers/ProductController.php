@@ -27,12 +27,10 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $teste = '<h1>Olá!</h1>';
-        $ataqueXss = '<script>alert("Olá!")</script>';
-        /*return view('teste', [
-            'teste' => $teste
-        ]);*/
-        return view('admin.pages.products.index', compact('teste','ataqueXss'));
+        $teste = 123;
+        $teste2 = 321;
+        $teste3 = [];
+        return view('admin.pages.products.index', compact('teste','teste2','teste3'));
     }
 
     /**
