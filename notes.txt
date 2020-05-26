@@ -58,6 +58,7 @@
 	17 - Controllers com Parâmetros de Rotas no Laravel 6.x
 	18 - Controllers de CRUD no Laravel 6.x
 	19 - Controllers Resources no Laravel 6.x
+		php artisan make:controller ProductController --resource
 	20 - Injeção de Dependências no Laravel 6.x
 	21 - Middlewares em Controllers no Laravel 6.x
 04 - Views
