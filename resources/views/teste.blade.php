@@ -8,5 +8,7 @@
 </head>
 <body>
 	{{ $teste }}
+	{!! $teste !!}
+	{{ $ataqueXss }}
 </body>
 </html>
