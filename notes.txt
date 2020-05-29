@@ -74,6 +74,7 @@
 05 - Request
 	30 - Formulários com Métodos de Envio no Laravel (verbo http)
 	31 - Outros recursos de views no Laravel
+		php artisan view:clear
 	32 - Pegar dados do formulário com o Laravel
 	33 - Upload de Arquivos no Laravel, com Request
 	34 - Upload de Arquivos Publicos no Laravel
