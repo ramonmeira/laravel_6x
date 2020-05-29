@@ -5,6 +5,19 @@
 @section('content')
 	<h1>Mostrando os produtos</h1>
 
+	@component('admin.components.card')
+		@slot('title')
+		    <h1>Título Card</h1>
+		@endslot
+	    Um card de exemplo
+	@endcomponent
+
+	<hr>
+
+	@include('admin.includes.alerts',['content' => "Alerta de preço de produtos"])
+
+	<hr>
+
 	@if (isset($products))
 		@foreach ($products as $product)
 			<p class="
