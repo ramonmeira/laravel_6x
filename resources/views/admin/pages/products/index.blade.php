@@ -85,7 +85,14 @@
 	
 @endsection
 
+@push('styles')
+	<style>
+		.last {background-color: #CCC;}
+	</style>
+@endpush
 
-<style>
-	.last {background-color: #CCC;}
-</style>
+@push('scripts')
+	<script>
+		document.body.style.background = '#999';
+	</script>
+@endpush
