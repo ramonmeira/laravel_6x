@@ -78,6 +78,9 @@
 	32 - Pegar dados do formulário com o Laravel
 	33 - Upload de Arquivos no Laravel, com Request
 	34 - Upload de Arquivos Publicos no Laravel
+		php artisan config:clear
+		php artisan storage:link
+		http://laravel6x.test/storage/products/2.png
 	35 - Validações no Laravel 6
 	36 - Validações no Laravel 6 com Form Request
 06 - Banco de Dados
