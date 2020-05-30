@@ -59,6 +59,13 @@ class ProductController extends Controller
         //dd($request->name);
         // dd($request->has('teste'));
         //dd($request->input('teste','default'));
+        if ($request->file('photo')->isValid()) {
+            // dd($request->photo->extension());
+            // dd($request->photo->getClientOriginalName());
+            // dd($request->file('photo')->store('products'));
+            $nameFile = $request->name.'.'.$request->file('photo')->extension();
+            dd($request->file('photo')->storeAs('products',$nameFile));
+        }
     }
 
     /**
